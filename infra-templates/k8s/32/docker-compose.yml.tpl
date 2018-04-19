@@ -271,7 +271,7 @@ rancher-kubernetes-agent:
         io.rancher.k8s.agent: "true"
     environment:
         KUBERNETES_URL: https://kubernetes.kubernetes.rancher.internal:6443
-    image: rancher/kubernetes-agent:v0.6.5
+    image: rancher/kubernetes-agent:v0.6.7
     privileged: true
     volumes:
         - /var/run/docker.sock:/var/run/docker.sock
